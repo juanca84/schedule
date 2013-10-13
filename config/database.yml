@@ -14,7 +14,7 @@ development:
   database: schedule_development
   pool: 5
   username: root
-  password: demo123
+  password:
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -26,7 +26,7 @@ test:
   database: schedule_test
   pool: 5
   username: root
-  password: demo123
+  password:
   socket: /tmp/mysql.sock
 
 production:
@@ -35,5 +35,5 @@ production:
   database: schedule_production
   pool: 5
   username: root
-  password: demo123
+  password:
   socket: /tmp/mysql.sock
