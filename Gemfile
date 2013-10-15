@@ -59,3 +59,4 @@ end
 # Use debugger
 gem 'debugger', group: [:development, :test]
 gem 'haml-rails', group: [:development]
+gem 'haml'
