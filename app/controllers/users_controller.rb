@@ -24,6 +24,7 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
+    debugger
     @user = User.new(user_params.permit(:email, :confirmation_password))
 
     respond_to do |format|
