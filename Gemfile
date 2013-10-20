@@ -29,6 +29,7 @@ gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
 gem 'devise'
 gem 'cancan'
 gem 'rolify'
+gem 'simple_form'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
