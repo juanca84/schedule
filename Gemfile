@@ -61,3 +61,4 @@ end
 gem 'debugger', group: [:development, :test]
 gem 'haml-rails', group: [:development]
 gem 'haml'
+gem 'backbone-on-rails'
