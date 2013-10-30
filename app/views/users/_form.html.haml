@@ -1,4 +1,4 @@
-= simple_form_for @user do |f|
+= simple_form_for @user, html: {class: 'form-control'} do |f|
   - if @user.errors.any?
     #error_explanation
       %h2
@@ -6,7 +6,7 @@
         prohibited this user from being saved:
       %ul
         - @user.errors.full_messages.each do |msg|
-          %li= msg          
+          %li= msg
 
   = f.input :username
   = f.input :email
